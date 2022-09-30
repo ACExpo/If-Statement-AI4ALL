@@ -1,18 +1,19 @@
+# Kg x Lb
 while True:
     try:
         weight = int(input("What is your weight? "))
         while True:
             try:
-                weight_kgs_lbs = input("Which unit did you input? \nType k for Kg or l for Lb ")
+                weight_kgs_lbs = input("Which unit did you input? \nType k for Kgs or l for Lbs ")
                 if weight_kgs_lbs == "k":
-                    weight_kgs_lbs = ("Kg")
+                    weight_kgs_lbs = ("Kgs")
                     print ("Your weight:", weight, weight_kgs_lbs)
                     y = int(weight * 2.20462)
                     print("Your weight in Lbs:", y, "Lbs")
                     print("That's awesome!")
                     break
                 elif weight_kgs_lbs == "l":
-                    weight_kgs_lbs = ("Lb")
+                    weight_kgs_lbs = ("Lbs")
                     print ("Your weight:", weight, weight_kgs_lbs)
                     z = int(weight * 0.45)
                     print("Your weight in Kgs:", z, "Kgs")
