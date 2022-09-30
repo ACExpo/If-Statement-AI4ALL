@@ -1,0 +1,23 @@
+# Basic Converter Kg x Lb
+while True:
+    try:
+        weight = int(input("What is your weight? "))
+        print ("Your weight:", weight)
+        while True:
+            try:
+                weight_kgs_lbs = input("Which unit did you input? \nType k for Kgs or l for Lbs ")
+                if weight_kgs_lbs == "k":
+                    y = int(weight * 2.20462)
+                    print("Your weight in Lbs:", y, "Lbs")
+                    print("That's awesome!")
+                    break
+                elif weight_kgs_lbs == "l":
+                    z = int(weight * 0.45)
+                    print("Your weight in Kgs:", z, "Kgs")
+                    print("That's awesome!")
+                    break
+            except:
+                print("Try again")
+        break
+    except:
+        print("Let's try again.\n")
