@@ -1,4 +1,4 @@
-# Basic Converter Kg x Lb
+#Kg x Lb
 while True:
     try:
         weight = int(input("What is your weight? "))
