@@ -3,9 +3,8 @@ print ("Your weight:", weight)
 weight_kgs_lbs = input("Which unit did you input? \nType k for Kgs or l for Lbs ")
 if weight_kgs_lbs == "k":
     y = int(weight * 2.20462)
-    print("Your weight in Lbs:", y, "Lbs")
-    print("That's awesome!")   
+    print("Your weight in Lbs:", y, "Lbs") 
 elif weight_kgs_lbs == "l":
     z = int(weight * 0.45)
     print("Your weight in Kgs:", z, "Kgs")
-    print("That's awesome!")
+
